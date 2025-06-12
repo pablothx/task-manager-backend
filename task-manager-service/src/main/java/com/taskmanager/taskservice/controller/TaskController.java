@@ -1,11 +1,10 @@
-package com.taskmanager.takservice.controller;
+package com.taskmanager.taskservice.controller;
 
 import java.util.List;
 
-import com.taskmanager.takservice.dto.TaskDto;
-import com.taskmanager.takservice.dto.TaskRequestDto;
-import com.taskmanager.takservice.entity.Task;
-import com.taskmanager.takservice.service.TaskService;
+import com.taskmanager.taskservice.dto.TaskDto;
+import com.taskmanager.taskservice.dto.TaskRequestDto;
+import com.taskmanager.taskservice.service.TaskService;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

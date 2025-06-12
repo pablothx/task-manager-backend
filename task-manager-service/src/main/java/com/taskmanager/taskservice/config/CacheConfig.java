@@ -1,4 +1,4 @@
-package com.taskmanager.takservice.config;
+package com.taskmanager.taskservice.config;
 
 import com.github.benmanes.caffeine.cache.Caffeine;
 import org.springframework.cache.CacheManager;

@@ -1,4 +1,4 @@
-package com.taskmanager.takservice.config;
+package com.taskmanager.taskservice.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

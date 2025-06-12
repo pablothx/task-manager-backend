@@ -1,4 +1,4 @@
-package com.taskmanager.takservice.dto;
+package com.taskmanager.taskservice.dto;
 
 import java.time.LocalDate;
 

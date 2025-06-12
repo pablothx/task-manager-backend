@@ -1,4 +1,4 @@
-package com.taskmanager.takservice;
+package com.taskmanager.taskservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

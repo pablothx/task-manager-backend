@@ -1,11 +1,11 @@
-package com.taskmanager.takservice.service;
+package com.taskmanager.taskservice.service;
 
 import java.util.List;
 
-import com.taskmanager.takservice.dto.TaskDto;
-import com.taskmanager.takservice.dto.TaskRequestDto;
-import com.taskmanager.takservice.entity.Task;
-import com.taskmanager.takservice.repository.TaskRepository;
+import com.taskmanager.taskservice.dto.TaskDto;
+import com.taskmanager.taskservice.dto.TaskRequestDto;
+import com.taskmanager.taskservice.entity.Task;
+import com.taskmanager.taskservice.repository.TaskRepository;
 
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.domain.Page;
