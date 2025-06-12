@@ -1,0 +1,45 @@
+### Get all tasks
+GET http://localhost:8080/tasks
+Accept: application/json
+
+### Get all tasks (cached)
+GET http://localhost:8080/tasks/cached
+Accept: application/json
+
+### Get paged tasks (cached)
+GET http://localhost:8080/tasks/paged-cached?page=0&size=10
+Accept: application/json
+
+### Get task by ID
+GET http://localhost:8080/tasks/2
+Accept: application/json
+
+### Create task
+POST http://localhost:8080/tasks
+Content-Type: application/json
+
+{
+  "title": "Estudiar AWS asddasd",
+  "description": "Preparar examen de Solutions Architect",
+  "dueDate": "2025-06-30",
+  "status": "IN_PROGRESS",
+  "priority": "HIGH"
+
+}
+
+### Update task
+PUT http://localhost:8080/tasks/2
+Content-Type: application/json
+
+{
+  "title": "PEPE Estudiar AWS (actualizado)",
+  "description": "Ya está casi listo el examen",
+  "dueDate": "2025-07-01",
+  "status": "COMPLETED",
+  "priority": "MEDIUM",
+  "assignedToId": 42
+}
+
+### Delete task
+DELETE http://localhost:8080/tasks/1
+Accept: application/json
